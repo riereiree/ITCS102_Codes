@@ -1,3 +1,7 @@
-name = input("Enter your name -")
+# int(), eval(), float ()
+x = int(input("Enter a number -"))
 
-print("Hello,",name,". How are you?")
+sum = x + 4
+
+print("Total = ", sum)
+print(type(x))
