@@ -36,4 +36,4 @@ print("The exponenation of",a,"and",b,"is", expo)
 
 #% - Modulus
 mod = a % b
-print("The modulus answer of",a,"and",b,"is", mod)
+print("The remainder of",a,"and",b,"is", mod)
