@@ -1,16 +1,30 @@
 money = int(input("Enter amount to DEPOSIT -> "))
 
-#computation here
+#computation here
 
 thousand = money // 1000
-five_hund = (money % 1000) // 500
-two_hund = (money % 1000 % 500) // 200
-one_hund = (money % 1000 % 500 % 200) // 100
-fifty = (money % 1000 % 500 % 200 % 100) // 50
-twenty = (money % 1000 % 500 % 200 % 100 % 50) // 20
-ten = (money % 1000 % 500 % 200 % 100 % 50 % 20) // 10
-five = (money % 1000 % 500 % 200 % 100 % 50 % 20 % 10) // 5
-one = (money % 1000 % 500 % 200 % 100 % 50 % 20 % 10 % 5) // 1
+thousand_rem = money % 1000
+
+five_hund = thousand_rem // 500
+five_hund_rem = thousand_rem % 500
+
+two_hund = five_hund_rem // 200
+two_hund_rem = five_hund_rem % 200
+
+one_hund = two_hund_rem // 100
+one_hund_rem = two_hund_rem % 100
+
+fifty = one_hund_rem // 50
+fifty_rem = one_hund_rem % 50
+
+twenty = fifty_rem // 20
+twenty_rem = fifty_rem % 20
+
+ten = twenty_rem // 10
+ten_rem = twenty_rem % 10
+
+five = ten_rem // 5
+one = ten_rem % 5
 
 #prints here
 print("1000 = ",thousand)
