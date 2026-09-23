@@ -7,10 +7,7 @@ has_collateral = bool(input("Do you have collateral? (True/False): "))
 interest_rate = 0.0
 
 if age >= 21 and is_employed == True :
-    print("Accepted: You are eligible for a loan.")
-#Tier 1
-if age >= 21 and is_employed:
-    print("Accepted: You are eligible for a loan.")
+    print("Accepted: You are eligible for a loan.")
     # Tier 1
     if credit_score >= 750:
         if annual_income >= 100000:
