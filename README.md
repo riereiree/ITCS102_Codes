@@ -1,5 +1,5 @@
 # 💫 About Me:
-Bachelor of Science in Information Technology<br>at Dalubhasaan ng Lungsod ng Lucena<br>First Year ('26)<br><br>FrR ITCS102 - Computer Programming
+Bachelor of Science in Information Technology<br>at Dalubhasaan ng Lungsod ng Lucena<br>First Year ('26)<br><br>For ITCS102 - Computer Programming
 
 
 ## 🌐 Socials:
