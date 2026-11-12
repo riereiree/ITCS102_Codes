@@ -1,0 +1,10 @@
+tao = []
+
+tao = ["edzil", "oseah", "jillian"]
+
+tao.append("jaira")
+tao.append("shantino")
+tao.append("floren")
+
+print(tao)
+print(tao[0:3])
